@@ -1,6 +1,7 @@
 import Modal from "react-modal";
 import React, {useState} from "react";
-import CustomButton from "./CustomButton";
+import CustomButton from "./CustomButton/CustomButton";
+
 
 const CustomModal = ({name, size, theme, border, type}) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
